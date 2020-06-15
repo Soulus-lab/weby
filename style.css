@@ -1,0 +1,37 @@
+html,
+body {
+  background: url(backgrnd_opt.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  font-family: cursive;
+}
+
+hr {
+  border-color: rgb(253, 143, 0);
+  border-width: 3px;
+  max-width: 100px;
+}
+.container {
+  color: rgb(255, 145, 0);
+  text-transform: uppercase;
+}
+
+.bt-xl {
+  /* color: rgb(255, 145, 0); */
+  font-size: large;
+  border-radius: 200px;
+  text-transform: uppercase;
+}
+.btn-primary {
+  background-color: rgba(255, 145, 0, 0.5);
+  border-color: rgba(255, 145, 0, 0.5);
+}
+.btn-primary:hover {
+  background-color: rgb(255, 145, 0);
+  border-radius: 12px;
+}
+
+.buffer {
+  height: 450px;
+}
